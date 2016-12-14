@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontAwesome/css/font-awesome.min.css"> <!-- Css Font Awesome -->
+        <title>Accueil</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <center>Block chain</center>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <center>
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="jumbotron">
+                    <h1><img alt="Brand" src="img/bc.jpeg" style="width:80px;height:80px;"class="img-thumbnail"></h1>
+                    <p>Bienvenue</p>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="thumbnail">
+                                <img src="img/obj1.jpg" alt="object 1" class="img-thumbnail" style="width:350px;height:300px;">
+                                <div class="caption">
+                                    <h3>Object 1</h3>
+                                    <p>Descriptif</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <br/><br/><br/>
+                            <a class="btn btn-primary" id="timer" onclick="setTimer()">
+                              20
+                            </a>
+                        <br/><br/><br/>
+                        <ul class="list-group" id="bidList">
+                            <!--<li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>-->
+                        </ul>
+                        <br/><br/><br/><br/><br/>
+                        <p>
+                        <input id="bidValue" type="number"/>
+                          <a href="#" onclick="bidSend()" class="btn btn-primary" role="button">Ench&eacute;rir</a>
+                        </p>
+                      </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+            </div>
+            <div class="col-md-1"></div>
+        </center>
+    </body>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/index.js"></script>
+
+</html>
